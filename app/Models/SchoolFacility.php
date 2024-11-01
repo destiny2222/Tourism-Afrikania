@@ -15,6 +15,7 @@ class SchoolFacility extends Model
         'description',
         'email',
         'phone',
+        'image',
         'publish',
         'facebook',
         'instagram',

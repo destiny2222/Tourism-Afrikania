@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('head', 'Course')
 @section('header-area')
-   @include('layouts.header')
+   @include('layouts.subheader')
 @endsection
 @section('content')
     @section('breadcrumb', 'Course Details')

@@ -13,19 +13,6 @@
             <li class="breadcrumb-item active" aria-current="page">Add Product</li>
         </ol>
     </div>
-    {{-- <div class="d-flex">
-        <div class="justify-content-center">
-            <button type="button" class="btn btn-white btn-icon-text my-2 me-2">
-              <i class="fe fe-download me-2"></i> Import
-            </button>
-            <button type="button" class="btn btn-white btn-icon-text my-2 me-2">
-              <i class="fe fe-filter me-2"></i> Filter
-            </button>
-            <button type="button" class="btn btn-primary my-2 btn-icon-text">
-              <i class="fe fe-download-cloud me-2"></i> Download Report
-            </button>
-        </div>
-    </div> --}}
 </div>
 <!-- End Page Header -->
 
@@ -33,54 +20,51 @@
 <div class="row row-sm">
     <div class="col-lg-12 col-md-12 col-md-12">
         <div class="card custom-card">
-            <div class="card-body">
-                <div class="form-group">
-                    <label class="tx-medium">Product Name</label>
-                    <input type="text" class="form-control" placeholder="Name">
-                </div>
-                <div class="form-group">
-                    <label class="tx-medium">Category</label>
-                    <select class="form-control select2">
-                        <option label="Choose one">
-                        </option>
-                        <option value="Party Wear">
-                            Party Wear
-                        </option>
-                        <option value="Casual Wear">
-                            Casual Wear
-                        </option>
-                        <option value="Wedding">
-                            Wedding
-                        </option>
-                        <option value="Festive">
-                            Festive
-                        </option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label class="tx-medium">Price</label>
-                    <input type="text" class="form-control" placeholder="Price">
-                </div>
-                <div class="ql-wrapper ql-wrapper-demo mb-3">
-                    <label class="tx-medium">Product Description</label>
-                    <div id="quillEditor">
+            <form action="{{ route('school-upload-store') }}" method="post">
+                @csrf
+                <div class="card-body">
+                    <div class="form-group">
+                        <label class="tx-medium">School Name</label>
+                        <input type="text" name="name" class="form-control" placeholder="School Name">
+                    </div>
+                    <div class="form-group">
+                        <label class="tx-medium">Email address</label>
+                        <input type="email" name="email" class="form-control" placeholder="Price">
+                    </div>
+                    <div class="form-group">
+                        <label class="tx-medium">Phone Number</label>
+                        <input type="text"name="phone"  class="form-control" placeholder="Price">
+                    </div>
+                    <div class="form-group">
+                        <label class="tx-medium">Facebook</label>
+                        <input type="text"name="facebook"  class="form-control" placeholder="Price">
+                    </div>
+                    <div class="form-group">
+                        <label class="tx-medium">Whatsapp</label>
+                        <input type="text"name="whatsapp"  class="form-control" placeholder="Price">
+                    </div>
+                    <div class="form-group">
+                        <label class="tx-medium">Instagram</label>
+                        <input type="text"name="instagram"  class="form-control" placeholder="Price">
+                    </div>
+                    <div class="ql-wrapper ql-wrapper-demo mb-3">
+                        <label class="tx-medium">Description(About school)</label>
+                        <textarea name="description" id="" cols="30" rows="10" class="form-control"></textarea>
+                    </div>
+                    <label class="tx-medium">Upload Photo</label>
+                    <div class="p-4 border rounded-6 mb-0 form-group">
+                        <div>
+                            <input   type="file" name="image" class="form-control">
+                        </div>
                     </div>
                 </div>
-                <label class="tx-medium">Upload Product</label>
-                <div class="p-4 border rounded-6 mb-0 form-group">
-                    <div>
-                        <input id="demo" type="file" name="files" accept="image/jpg, image/jpeg, image/png, text/html, application/zip, text/css, text/js" multiple>
-                    </div>
+                <div class="card-footer mb-1">
+                    <button type="submit" class="btn btn-primary w-100">Upload</button>
                 </div>
-            </div>
-            <div class="card-footer mb-1">
-                <a href="javascript:void(0);" class="btn btn-primary">Add Product</a>
-                <a href="javascript:void(0);" class="btn btn-danger">Cancel</a>
-            </div>
+            </form>    
         </div>
     </div>
 </div>
 <!-- End Row -->
-
 
 @endsection

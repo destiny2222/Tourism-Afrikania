@@ -3,6 +3,10 @@
 use App\Models\CourseCategory;
 use App\Models\Admin;
 use Illuminate\Support\Facades\DB;
+use Intervention\Image\Facades\Image;
+
+$bb = '';
+
 
 if (!function_exists('update_image')){
     function update_image($folder,$currentImagePath,$key) : String{
@@ -85,6 +89,3 @@ if (!function_exists('upload_multiple_images')){
     }
 
     
-function getCategory(){
-   return CourseCategory::all();
-}

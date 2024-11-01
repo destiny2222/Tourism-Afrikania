@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('head', 'Build Afrika Winners')
 @section('header-area')
-   @include('layouts.header')
+   @include('layouts.subheader')
 @endsection
 @section('content')
     @section('breadcrumb', 'Build Afrika Winners')

@@ -20,7 +20,8 @@ class FrontController extends Controller
         $post = Post::paginate(3);
         $event = Event::paginate(3);
         $course = Course::paginate(3);
-        return view('frontend.index', compact('event', 'course', 'post'));
+        $partner = Partner::all();
+        return view('frontend.index', compact('event', 'course', 'post', 'partner'));
     }
 
     public function event(){
@@ -116,5 +117,12 @@ class FrontController extends Controller
     public function register4(){
         return view('frontend.register_3');
     } 
+
+    // search functionality
+    public function search(Request $request){
+        $search = $request->search;
+        $course = Course::where('name', 'LIKE', "%$search%")->orWhere('description', 'LIKE', "%$search%")->paginate(6);
+        return view('frontend.course', compact('course'));
+    }
 
 }

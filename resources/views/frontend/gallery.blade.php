@@ -6,7 +6,7 @@
     }
 </style>
 @section('header-area')
-   @include('layouts.header')
+   @include('layouts.subheader')
 @endsection
 @section('content')
     @section('breadcrumb', 'Gallery')

@@ -1,197 +1,169 @@
-<!-- header area start -->
-<header>
-    <div class="header__area">
-       <div class="header__top header__border d-none d-md-block">
-          <div class="container">
-             <div class="row align-items-center">
-                <div class="col-xxl-6 col-xl-8 col-lg-8 col-md-8">
-                   <div class="header__info">
-                      <ul>
-                         <li>
-                            <a href="https://wphix.com/cdn-cgi/l/email-protection#d3babdb5bc93b6b7a6b8b6a1fdb0bcbe"> 
-                               <svg viewBox="0 0 15 13">
-                               <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5163 7.93224C7.11179 7.93224 6.70849 7.79861 6.37109 7.53136L3.65922 5.34493C3.46391 5.18772 3.43368 4.90172 3.59029 4.70702C3.7481 4.51292 4.0335 4.48209 4.2282 4.63869L6.93765 6.8227C7.27807 7.09238 7.75756 7.09238 8.1004 6.82028L10.7826 4.6399C10.9773 4.48088 11.2627 4.51111 11.4212 4.70581C11.579 4.8999 11.5493 5.1853 11.3553 5.34372L8.66817 7.52773C8.32835 7.7974 7.92203 7.93224 7.5163 7.93224Z" fill="#4B535A"/>
-                               <path d="M7.5163 7.93224C7.11179 7.93224 6.70849 7.79861 6.37109 7.53136L3.65922 5.34493C3.46391 5.18772 3.43368 4.90172 3.59029 4.70702C3.7481 4.51292 4.0335 4.48209 4.2282 4.63869L6.93765 6.8227C7.27807 7.09238 7.75756 7.09238 8.1004 6.82028L10.7826 4.6399C10.9773 4.48088 11.2627 4.51111 11.4212 4.70581C11.579 4.8999 11.5493 5.1853 11.3553 5.34372L8.66817 7.52773C8.32835 7.7974 7.92203 7.93224 7.5163 7.93224" stroke="#4B535A" stroke-width="0.2"/>
-                               <path fill-rule="evenodd" clip-rule="evenodd" d="M4.53063 11.8838H10.4683C10.4695 11.8826 10.4744 11.8838 10.478 11.8838C11.1679 11.8838 11.7798 11.6371 12.249 11.1685C12.7938 10.6261 13.0931 9.8467 13.0931 8.97418V4.82142C13.0931 3.13262 11.989 1.90699 10.4683 1.90699H4.53184C3.01113 1.90699 1.90703 3.13262 1.90703 4.82142V8.97418C1.90703 9.8467 2.20694 10.6261 2.75113 11.1685C3.22034 11.6371 3.83286 11.8838 4.52216 11.8838H4.53063ZM4.52029 12.7908C3.58731 12.7908 2.7541 12.4521 2.11075 11.8112C1.39423 11.0965 1 10.0892 1 8.97418V4.82141C1 2.64284 2.51829 1 4.53178 1H10.4683C12.4818 1 14.0001 2.64284 14.0001 4.82141V8.97418C14.0001 10.0892 13.6058 11.0965 12.8893 11.8112C12.2466 12.4515 11.4127 12.7908 10.478 12.7908H10.4683H4.53178H4.52029Z" fill="#4B535A"/>
-                               <path d="M10.4683 11.8838V11.9838H10.5098L10.539 11.9545L10.4683 11.8838ZM12.249 11.1685L12.1785 11.0976L12.1784 11.0977L12.249 11.1685ZM2.75113 11.1685L2.8218 11.0977L2.82172 11.0976L2.75113 11.1685ZM2.11075 11.8112L2.04013 11.882L2.04017 11.8821L2.11075 11.8112ZM12.8893 11.8112L12.9599 11.8821L12.9599 11.882L12.8893 11.8112ZM4.53063 11.9838H10.4683V11.7838H4.53063V11.9838ZM10.539 11.9545C10.5246 11.969 10.5091 11.9755 10.4998 11.9786C10.4903 11.9816 10.4824 11.9826 10.4781 11.9829C10.4701 11.9836 10.464 11.983 10.464 11.983C10.4634 11.9829 10.463 11.9829 10.4634 11.9829C10.4635 11.9829 10.4646 11.9831 10.4656 11.9831C10.4673 11.9833 10.4721 11.9838 10.478 11.9838V11.7838C10.4802 11.7838 10.482 11.7839 10.483 11.7839C10.484 11.784 10.4846 11.7841 10.4847 11.7841C10.4868 11.7843 10.4818 11.7838 10.4806 11.7837C10.4787 11.7835 10.4709 11.7828 10.4615 11.7836C10.4566 11.784 10.4481 11.7851 10.4381 11.7883C10.4283 11.7915 10.4124 11.7983 10.3976 11.8131L10.539 11.9545ZM10.478 11.9838C11.1931 11.9838 11.8309 11.7274 12.3197 11.2392L12.1784 11.0977C11.7288 11.5467 11.1427 11.7838 10.478 11.7838V11.9838ZM12.3196 11.2393C12.8859 10.6756 13.1931 9.86931 13.1931 8.97418H12.9931C12.9931 9.82408 12.7018 10.5766 12.1785 11.0976L12.3196 11.2393ZM13.1931 8.97418V4.82142H12.9931V8.97418H13.1931ZM13.1931 4.82142C13.1931 3.08749 12.0538 1.80699 10.4683 1.80699V2.00699C11.9242 2.00699 12.9931 3.17775 12.9931 4.82142H13.1931ZM10.4683 1.80699H4.53184V2.00699H10.4683V1.80699ZM4.53184 1.80699C2.94632 1.80699 1.80703 3.08749 1.80703 4.82142H2.00703C2.00703 3.17775 3.07594 2.00699 4.53184 2.00699V1.80699ZM1.80703 4.82142V8.97418H2.00703V4.82142H1.80703ZM1.80703 8.97418C1.80703 9.86936 2.11492 10.6756 2.68054 11.2393L2.82172 11.0976C2.29896 10.5766 2.00703 9.82403 2.00703 8.97418H1.80703ZM2.68047 11.2392C3.16931 11.7274 3.80764 11.9838 4.52216 11.9838V11.7838C3.85808 11.7838 3.27137 11.5467 2.8218 11.0977L2.68047 11.2392ZM4.52216 11.9838H4.53063V11.7838H4.52216V11.9838ZM4.52029 12.6908C3.61295 12.6908 2.80536 12.3621 2.18133 11.7404L2.04017 11.8821C2.70284 12.5422 3.56168 12.8908 4.52029 12.8908V12.6908ZM2.18137 11.7404C1.48568 11.0465 1.1 10.0656 1.1 8.97418H0.9C0.9 10.1127 1.30279 11.1465 2.04013 11.882L2.18137 11.7404ZM1.1 8.97418V4.82141H0.9V8.97418H1.1ZM1.1 4.82141C1.1 2.69051 2.58079 1.1 4.53178 1.1V0.9C2.45578 0.9 0.9 2.59518 0.9 4.82141H1.1ZM4.53178 1.1H10.4683V0.9H4.53178V1.1ZM10.4683 1.1C12.4193 1.1 13.9001 2.69051 13.9001 4.82141H14.1001C14.1001 2.59518 12.5443 0.9 10.4683 0.9V1.1ZM13.9001 4.82141V8.97418H14.1001V4.82141H13.9001ZM13.9001 8.97418C13.9001 10.0656 13.5144 11.0465 12.8187 11.7404L12.9599 11.882C13.6973 11.1465 14.1001 10.1127 14.1001 8.97418H13.9001ZM12.8187 11.7404C12.1953 12.3614 11.3871 12.6908 10.478 12.6908V12.8908C11.4384 12.8908 12.2978 12.5416 12.9599 11.8821L12.8187 11.7404ZM10.478 12.6908H10.4683V12.8908H10.478V12.6908ZM10.4683 12.6908H4.53178V12.8908H10.4683V12.6908ZM4.53178 12.6908H4.52029V12.8908H4.53178V12.6908Z" fill="#4B535A"/>
-                               </svg> <span class="__cf_email__">info@tourismafrikanianig.com</span></a>
-                         </li>
-                         <li>
-                            <a href="#" target="_blank">
-                               <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.9235 4.66671C5.23068 4.66671 4.66709 5.2303 4.66709 5.92383C4.66709 6.61666 5.23068 7.17953 5.9235 7.17953C6.61632 7.17953 7.17991 6.61666 7.17991 5.92383C7.17991 5.2303 6.61632 4.66671 5.9235 4.66671ZM5.92354 8.25642C4.63698 8.25642 3.59021 7.21037 3.59021 5.9238C3.59021 4.63652 4.63698 3.58975 5.92354 3.58975C7.21011 3.58975 8.25688 4.63652 8.25688 5.9238C8.25688 7.21037 7.21011 8.25642 5.92354 8.25642Z" fill="#4B535A"/>
-                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.92278 1.07695C3.25058 1.07695 1.07663 3.27172 1.07663 5.96834C1.07663 9.39942 5.11437 12.7422 5.92278 12.9202C6.73119 12.7415 10.7689 9.3987 10.7689 5.96834C10.7689 3.27172 8.59499 1.07695 5.92278 1.07695ZM5.92259 14C4.63459 14 -0.000488281 10.0139 -0.000488281 5.96831C-0.000488281 2.67723 2.65664 0 5.92259 0C9.18854 0 11.8457 2.67723 11.8457 5.96831C11.8457 10.0139 7.21059 14 5.92259 14Z" fill="#4B535A"/>
-                               </svg>
-                               Victoria Island, Lagos</a>
-                         </li>
-                      </ul>
-                   </div>
-                </div>
-                <div class="col-xxl-6 col-xl-4 col-lg-4 col-md-4">
-                   <div class="header__top-right d-flex justify-content-end align-items-center">
-                      <div class="header__login">
-                        <a href="/login"><svg viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M5.99995 6.83333C7.61078 6.83333 8.91662 5.5275 8.91662 3.91667C8.91662 2.30584 7.61078 1 5.99995 1C4.38912 1 3.08328 2.30584 3.08328 3.91667C3.08328 5.5275 4.38912 6.83333 5.99995 6.83333Z" stroke="#031220" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-                           <path d="M11.0108 12.6667C11.0108 10.4092 8.76497 8.58333 5.99997 8.58333C3.23497 8.58333 0.989136 10.4092 0.989136 12.6667" stroke="#031220" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-                           </svg> 
-                           Login
-                        </a>
-                      </div>
-                      <div class="header__btn ml-20">
-                        <a href="/register" class="header-btn">Register</a>
-                     </div>
-                   </div>
-                </div>
-             </div>
-          </div>
-       </div>
-       <div class="header__bottom" id="header-sticky">
-          <div class="container">
-             <div class="row align-items-center">
-                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-6 col-6">
-                   <div class="logo">
-                      <a href="/">
-                         <img width="50" height="110" src="assets/img/logo/logo.png" alt="logo">
-                      </a>
-                   </div>
-                </div>
-                <div class="col-xxl-7 col-xl-7 col-lg-8 d-none d-lg-block">
-                   <div class="main-menu">
-                      <nav id="mobile-menu">
-                         <ul>
-                            <li class="">
-                               <a href="/">Home</a>
-                            </li>
-                            <li class="has-dropdown">
-                                <a  href="javascript:void()">About Company</a>
-                                <ul class="submenu">
-                                   <li><a href='/about' class="text-capitalize">About Us</a></li>
-                                   <li><a href='/service' class="text-capitalize">Services</a></li>
-                                   <li><a href='/buildafrika' class="text-capitalize">Build Afrika Winners</a></li>
-                                   <li><a href='/gallery' class="text-capitalize">Gallery</a></li>
-                                   <li><a href='/community' class="text-capitalize">Community</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-dropdown">
-                                <a href="javascript:void()">Courses</a>
-                                <ul class="submenu">
-                                   @foreach (getCategory() as $key => $item)
-                                      <li><a href='{{ route('courses.showByCategory',$item->slug) }}' class="text-capitalize">{{ $item->name }}</a></li>    
-                                   @endforeach
-                                </ul>
-                             </li>
-                            <li class="">
-                               <a  href="/event">Event </a>
-                            </li>
-                            <li class="">
-                               <a href="/blog">Blog</a>
-                            </li>
-                             <li>
-                               <a href="/contact">Contact</a>
-                            </li>
-                         </ul>
-                      </nav>
-                   </div>
-                </div>
-                <div class="col-xxl-3 col-xl-3 col-lg-2 col-md-6 col-6">
-                   <div class="header__bottom-right d-flex justify-content-end align-items-center pl-30">
-                      <div class="header__search w-100 d-none d-xl-block">
-                         <form action="#">
-                            <div class="header__search-input">
-                               <input type="text" placeholder="Search...">
-                               <button class="header__search-btn"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M8.11117 15.2222C12.0385 15.2222 15.2223 12.0385 15.2223 8.11111C15.2223 4.18375 12.0385 1 8.11117 1C4.18381 1 1.00006 4.18375 1.00006 8.11111C1.00006 12.0385 4.18381 15.2222 8.11117 15.2222Z" stroke="#031220" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                  <path d="M17 17L13.1334 13.1333" stroke="#031220" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                  </svg>
-                               </button>
-                            </div>
-                         </form>
-                      </div>
-                      <div class="header__hamburger ml-50 d-xl-none">
-                         <button type="button" data-bs-toggle="modal" data-bs-target="#offcanvasmodal" class="hamurger-btn">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                         </button>
-                      </div>
-                   </div>
-                </div>
-             </div>
-          </div>
-       </div>
-    </div>
-  </header> 
- <!-- header area end -->
- 
- <!-- offcanvas area start -->
- <div class="offcanvas__area">
-    <div class="modal fade" id="offcanvasmodal" tabindex="-1" aria-labelledby="offcanvasmodal" aria-hidden="true">
-       <div class="modal-dialog">
-           <div class="modal-content">
-              <div class="offcanvas__wrapper">
-                 <div class="offcanvas__content">
-                    <div class="offcanvas__top mb-40 d-flex justify-content-between align-items-center">
-                       <div class="offcanvas__logo logo">
-                          <a href="/">
-                          <img src="assets/img/logo/logo.png" alt="logo">
-                          </a>
-                       </div>
-                       <div class="offcanvas__close">
-                          <button class="offcanvas__close-btn" data-bs-toggle="modal" data-bs-target="#offcanvasmodal">
-                             <i class="fal fa-times"></i>
-                          </button>
-                       </div>
-                    </div>
-                    <div class="offcanvas__search mb-25">
-                       <form action="#">
-                          <input type="text" placeholder="What are you searching for?">
-                          <button type="submit" ><i class="far fa-search"></i></button>
-                       </form>
-                    </div>
-                    <div class="mobile-menu fix"></div>
-                    <div class="offcanvas__contact mt-30 mb-20">
-                       <h4>Contact Info</h4>
-                       <ul>
-                          <li class="d-flex align-items-center">
-                             <div class="offcanvas__contact-icon mr-15">
-                                <i class="fal fa-map-marker-alt"></i>
-                             </div>
-                             <div class="offcanvas__contact-text">
-                                <a target="_blank" href="#">Victoria Island, Lagos</a>
-                             </div>
-                          </li>
-                          <li class="d-flex align-items-center">
-                             <div class="offcanvas__contact-icon mr-15">
-                                <i class="far fa-phone"></i>
-                             </div>
-                             <div class="offcanvas__contact-text">
-                                <a href="tel:+2347062081248">+2347062081248</a>
-                             </div>
-                          </li>
-                          <li class="d-flex align-items-center">
-                             <div class="offcanvas__contact-icon mr-15">
-                                <i class="fal fa-envelope"></i>
-                             </div>
-                             <div class="offcanvas__contact-text">
-                                <a href="mailto:info@tourismafrikanianig.com"><span class="__cf_email__">info@tourismafrikanianig.com</span></a>
-                             </div>
-                          </li>
-                       </ul>
-                    </div>
-                    <div class="offcanvas__social">
-                       <ul>
-                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                          <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                       </ul>
-                    </div>
-                 </div>
-              </div>
-           </div>
-       </div>
+@php
+   $getCategory =  App\Models\CourseCategory::all();
+@endphp
+
+    <!-- pre loader area start -->
+    <div id="loading">
+      <div id="loading-center">
+         <div id="loading-center-absolute">
+            <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
+               <img class="loading-logo" src="assets/img/logo/preloader.svg" alt="">
+            </div>
+         </div>
+      </div>
    </div>
- </div>
- <!-- offcanvas area end -->      
- <div class="body-overlay"></div>
- <!-- offcanvas area end -->
+   <!-- pre loader area end -->
+
+
+
+   <!-- side toggle start -->
+   <div class="fix">
+      <div class="side-info">
+         <div class="side-info-content">
+            <div class="offset-widget offset-logo mb-40">
+               <div class="row align-items-center">
+                  <div class="col-9">
+                     <a href="/">
+                        <img src="assets/img/logo/logo-black.png" width="70" alt="Logo">
+                     </a>
+                  </div>
+                  <div class="col-3 text-end"><button class="side-info-close"><i class="fal fa-times"></i></button>
+                  </div>
+               </div>
+            </div>
+            <div class="mobile-menu d-xl-none fix"></div>
+            <div class="offset-widget offset_searchbar mb-30">
+               <div class="menu-search position-relative ">
+                  <form action="{{ route('search') }}" class="filter-search-input">
+                     <input type="text" name="search" placeholder="Search keyword">
+                     <button type="submit"><i class="fal fa-search"></i></button>
+                  </form>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </div>
+   <div class="offcanvas-overlay"></div>
+   <div class="offcanvas-overlay-white"></div>
+   <!-- side toggle end -->
+
+
+   <!-- header note area start  -->
+   <div class="header-note-area p-relative d-none d-md-block">
+      <div class="container-fluid">
+         <div class="note-text text-center">
+            <p class="text-white">AFRICAN HOSPITALITY AND TOURISM EDUCATION SUMMIT NIGERIA 2025 HAPPENING LIVE IN THE CITY OF LAGOs!.</p>
+         </div>
+      </div>
+      <div class="eduman-header-notice-action-close">
+         <button><i class="fal fa-times text-white"></i></button>
+      </div>
+   </div>
+   <!-- header note area end -->
+
+   <!-- header-area-start  -->
+   <header>
+      <div class="header-area header-transparent sticky-header">
+         <div class="container-fluid">
+            <div class="header-main-wrapper">
+               <div class="row align-items-center">
+                  <div class="col-xl-7 col-lg-7 col-md-5 col-sm-9 col-9">
+                     <div class="header-left d-flex align-items-center">
+                        <div class="header-logo">
+                           <a href="/"><img src="assets/img/logo/logo-black.png" alt="logo"></a>
+                        </div>
+                        <div class="main-menu m-auto d-none d-xl-block">
+                           <nav id="mobile-menu">
+                              <ul>
+                                 <li><a href="/">Home</a></li>
+                                 <li class="menu-item-has-children"><a href="#!">Company</a>
+                                    <ul class="sub-menu">
+                                       <li><a href='/about' class="text-capitalize">About Us</a></li>
+                                       <li><a href='/service' class="text-capitalize">Services</a></li>
+                                       <li><a href='/buildafrika' class="text-capitalize">Build Afrika Winners</a></li>
+                                       <li><a href='/gallery' class="text-capitalize">Gallery</a></li>
+                                       <li><a href='/community' class="text-capitalize">Community</a></li>
+                                       <li><a href="#">shop</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="menu-item-has-children">
+                                    <a href="javascript:void(0)">Courses</a>
+                                    <ul class="sub-menu">
+                                       @foreach ($getCategory as $key => $item)
+                                          <li><a href='{{ route('courses.showByCategory',$item->slug) }}' class="text-capitalize">{{ $item->name }}</a></li>    
+                                       @endforeach
+                                    </ul>
+                                 </li>
+                                 <li class="">
+                                    <a  href="/event">Event </a>
+                                 </li>
+                                 <li class="">
+                                    <a href="/blog">Blog</a>
+                                 </li>
+                                  <li>
+                                    <a href="/contact">Contact</a>
+                                 </li>
+                              </ul>
+                           </nav>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-5 col-lg-5 col-md-7 col-sm-3 col-3">
+                     <div class="header-right d-flex align-items-center justify-content-end">
+                        <div class="header-search d-none d-xxl-block mr-30">
+                           <form action="{{ route('search') }}">
+                              <div class="search-icon p-relative">
+                                 <input type="text" name="search" placeholder="Search courses...">
+                                 <button type="submit"><i class="fas fa-search"></i></button>
+                              </div>
+                           </form>
+                        </div>
+                        {{-- <div class="cart-wrapper mr-30">
+                           <a href="javascript:void(0);" class="cart-toggle-btn">
+                              <div class="header__cart-icon p-relative">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="19.988" height="19.988"
+                                    viewBox="0 0 19.988 19.988">
+                                    <g id="trolley-cart" transform="translate(-1 -1)">
+                                       <path id="Path_36" data-name="Path 36"
+                                          d="M1.666,2.333H3.8L6.159,12.344a1.993,1.993,0,0,0,.171,3.98H17.656a.666.666,0,1,0,0-1.333H6.33a.666.666,0,0,1,0-1.333H17.578a1.992,1.992,0,0,0,1.945-1.541l1.412-6a2,2,0,0,0-1.946-2.456H5.486L4.98,1.514A.666.666,0,0,0,4.331,1H1.666a.666.666,0,0,0,0,1.333ZM18.989,5a.677.677,0,0,1,.649.819l-1.412,6a.662.662,0,0,1-.648.514H7.524L5.8,5Z"
+                                          transform="translate(0 0)" fill="#141517" />
+                                       <path id="Path_37" data-name="Path 37"
+                                          d="M20,27a2,2,0,1,0,2-2A2,2,0,0,0,20,27Zm2.665,0A.666.666,0,1,1,22,26.333.666.666,0,0,1,22.665,27Z"
+                                          transform="translate(-6.341 -8.01)" fill="#141517" />
+                                       <path id="Path_38" data-name="Path 38"
+                                          d="M9,27a2,2,0,1,0,2-2A2,2,0,0,0,9,27Zm2.665,0A.666.666,0,1,1,11,26.333.666.666,0,0,1,11.665,27Z"
+                                          transform="translate(-2.67 -8.01)" fill="#141517" />
+                                    </g>
+                                 </svg>
+                                 <span class="item-number">3</span>
+                              </div>
+                           </a>
+                        </div> --}}
+                        <div class="user-btn-inner p-relative d-none d-md-block">
+                           <div class="user-btn-wrapper">
+                              <div class="user-btn-content ">
+                                 <a class="user-btn-sign-in" href="#">Sign In</a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="d-none d-md-block">
+                           <a class="user-btn-sign-up edu-btn" href="#">Sign Up</a>
+                        </div>
+                        <div class="menu-bar d-xl-none ml-20">
+                           <a class="side-toggle" href="javascript:void(0)">
+                              <div class="bar-icon">
+                                 <span></span>
+                                 <span></span>
+                                 <span></span>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- header-area-end -->

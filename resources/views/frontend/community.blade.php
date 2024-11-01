@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('head', 'Community')
 @section('header-area')
-   @include('layouts.header')
+   @include('layouts.subheader')
 @endsection
 @section('content')
     @section('breadcrumb', 'Community')
@@ -15,79 +15,104 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
-                    <div class="section-title text-center mb-50">
+                    <div class="section-title text-center mt-50 mb-50">
                         <span class="sub-title">Our Student</span>
-                        <h2 class="section__title section__title-44">Community</h2>
+                        <h2 class="section__title section__title-44"><span class="down-mark-line-2">Community</span></h2>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center gutter-24">
-
-                <div class="col-12 col-lg-10 col-md-10">
-                    <div class="services__item-three">
-                        <div class="services__content-three">
-                            <p>
-                                Tourism Afrikania is an African Global Hospitality and Tourism Management
+            <div class="container teacher-area pt-70 fix">
+                <div class="row align-items-center justify-content-center ">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6">
+                        <div class="teacher-img position-relative">
+                            <img class="teacher-main-img" src="assets/img/teacher/teacher.png" alt="image not found">
+                            <img class="teacher-shape" src="assets/img/teacher/teacher-shape-01.png"
+                                alt="image not found">
+                            <img class="teacher-shape-02" src="assets/img/teacher/teacher-shape-02.png"
+                                alt="image not found">
+                            <img class="teacher-shape-03" src="assets/img/teacher/teacher-shape-03.png"
+                                alt="image not found">
+                            <img class="teacher-shape-04" src="assets/img/teacher/teacher-shape-04.png"
+                                alt="image not found">
+                        </div>
+                    </div>
+                    <div class="col-xxl-6 col-xl-6 col-lg-6">
+                        <div class="teacher-content mr-20">
+                            <div class="section-title mb-30">
+                                <h2>Tourism Afrikania: <span class="down-mark-line-2">Empowering</span>  Africa's Growth </h2>
+                            </div>
+                            <p style="text-align:justify;"> Tourism Afrikania is an African Global Hospitality and Tourism Management
                                 Company dedicated to promoting hospitality and tourism education across
                                 Africa. Our mission is to enable African economic growth by assisting business
                                 owners in achieving their profitability goals through comprehensive career
                                 mentorship, training, marketing solutions, and general travel and hotel
-                                management services.
-                            </p>
-                        </div>
+                                management services.</p></div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-10 col-md-10">
-                    <div class="services__item-three">
-                        <div class="services__content-three">
-                            <div class="services__item-top-title">
-                                <h2 class="title"><a href='javascript:void()'>TA Network / Community of Students and Graduates:</a></h2>
+                <div class="row justify-content-center pt-100 gutter-24">
+                    <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-6 order-lg-2">
+                        <div class="zoom-thumb position-relative">
+                            <img class="zoom-shape-01" src="assets/img/teacher/zoom-shape-1.png" alt="image not found">
+                            <img class="zoom-shape-02" src="assets/img/teacher/zoom-shape-2.png" alt="image not found">
+                            <img class="zoom-thumb-main-img" src="assets/img/teacher/Zoom.png" alt="image not found">
+                        </div>
+                    </div>
+                    <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-6 order-lg-1 ">
+                        <div class="zoom-class-wrapper mb-60">
+                            <div class="section-title mb-30">
+                                <h2> <a href='javascript:void()' style="color:black;">TA  <span class="down-mark-line-2"> Network</span> / Community of Students and Graduates:</a></h2>
                             </div>
-                            <p>
-                                Our TA Network is a vibrant community that provides invaluable resources and
+                            <div class="zoon-class-text">
+                                <p style="text-align:justify;">Our TA Network is a vibrant community that provides invaluable resources and
                                 support to students and graduates pursuing careers in the hospitality and
                                 tourism industry. By joining our community, you gain access to a wide range of
                                 benefits and opportunities tailored to enhance your professional development
-                                and accelerate your career growth.
-                            </p>
+                                and accelerate your career growth.</p>
+                            </div>
+                           
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="row justify-content-center gutter-24">    
                 <div class="col-12 col-lg-10 col-md-10">
                     <div class="services__item-three">
                         <div class="services__content-three">
-                            <div class="services__top-title">
-                                <h2 class="title"><a href='javascript:void()'>Key Features of Our Student Community:</a></h2>
+                        <div class="student-wrapper mb-30">
+                            <div class="section-title mb-30">
+                                <h2>Key <span class="down-mark-line"> Features</span> of Our Student Community:</h2>
                             </div>
-                            <p>
-                                • Career Mentorship: Receive personalized guidance and support from industry
-                                professionals to navigate your career path and achieve your professional goals.
-                                • Students' Cash Prize Supports / Competitions: Participate in competitions such
+                            <div class="student-choose-list">
+                                <ul style="text-align:justify;">
+                                <li><i class="far fa-check"></i>Career Mentorship: Receive personalized guidance and support from industry
+                                professionals to navigate your career path and achieve your professional goals.</li>
+                                <li><i class="far fa-check"></i>Students' Cash Prize Supports / Competitions: Participate in competitions such
                                 as Build Afrika to showcase your skills and talents and win cash prizes to
-                                support your educational journey.
-                                • Professional Development Training: Access training opportunities to enhance
-                                your skills and stay updated on industry best practices and trends.
-                                • Professional Skill Acquisition: Acquire practical skills and knowledge through
-                                hands-on training and workshops conducted by industry experts.
-                                • Job / Internship Opportunities: Explore internship and job opportunities in
+                                support your educational journey.</li>
+                                <li><i class="far fa-check"></i>Professional Development Training: Access training opportunities to enhance
+                                your skills and stay updated on industry best practices and trends.</li>
+                                <li><i class="far fa-check"></i>Professional Skill Acquisition: Acquire practical skills and knowledge through
+                                hands-on training and workshops conducted by industry experts.</li>
+                                <li><i class="far fa-check"></i>Job / Internship Opportunities: Explore internship and job opportunities in
                                 leading hospitality and tourism organizations through our extensive network of
-                                industry partners.
-                                • Business/Entrepreneurship Coaching: Receive guidance and mentorship to
+                                industry partners.</li>
+                                <li><i class="far fa-check"></i>Business/Entrepreneurship Coaching: Receive guidance and mentorship to
                                 develop your entrepreneurial skills and explore business opportunities in the
-                                hospitality and tourism sector.
-                                • Networking: Connect with fellow students, graduates, and industry
+                                hospitality and tourism sector.</li>
+                                <li><i class="far fa-check"></i>Networking: Connect with fellow students, graduates, and industry
                                 professionals to expand your professional network and explore collaborative
-                                opportunities.
-                                • Scholarship Opportunities: Apply for scholarships to fund your education and
-                                pursue further studies in hospitality and tourism-related fields.
-                                • Industry News and Trends: Stay informed about the latest news, trends, and
+                                opportunities.</li>
+                                <li><i class="far fa-check"></i>Scholarship Opportunities: Apply for scholarships to fund your education and
+                                pursue further studies in hospitality and tourism-related fields.</li>
+                                <li><i class="far fa-check"></i>Industry News and Trends: Stay informed about the latest news, trends, and
                                 developments in the hospitality and tourism industry to remain competitive in
-                                the job market.
-                                • CV / Resume Assistance: Receive assistance in crafting professional resumes
+                                the job market.</li>
+                                <li><i class="far fa-check"></i>CV / Resume Assistance: Receive assistance in crafting professional resumes
                                 and CVs that comply with Applicant Tracking System (ATS) requirements to
-                                increase your chances of landing interviews.
-                                    
-                            </p>
+                                increase your chances of landing interviews.</li>
+                                </ul>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>

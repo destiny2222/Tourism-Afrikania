@@ -40,6 +40,7 @@ Route::get('/registration/AHTES24/visitor', [FrontController::class, 'register1'
 Route::get('/registration/AHTES24/regular-delegate', [FrontController::class, 'register2'])->name('register-regular');
 Route::get('/registration/AHTES24/delegate', [FrontController::class, 'register3'])->name('register-delegate');
 Route::get('/registration/AHTES24/premium-delegate', [FrontController::class, 'register4'])->name('register-premium');
+Route::get('/search', [FrontController::class,'search'])->name('search');
 
 
 require __DIR__.'/admin.php';

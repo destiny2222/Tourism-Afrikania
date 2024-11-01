@@ -1,19 +1,22 @@
 
 <!-- breadcrumb area start -->
-<section class="breadcrumb__area include-bg  breadcrumb__overlay" data-background="/assets/img/bg/breadcrumb_bg.jpg">
-    <div class="container">
-       <div class="row">
-          <div class="col-xxl-12">
-             <div class="breadcrumb__content text-center p-relative z-index-1">
-                <h3 class="breadcrumb__title">@yield('breadcrumb')</h3>
-                <div class="breadcrumb__list">
-                   <span><a href="/">Home</a></span>
-                   <span class="dvdr"><i class="fa-regular fa-angle-right"></i></span>
-                   <span>@yield('breadcrumb')</span>
-                </div>
-             </div>
-          </div>
-       </div>
-    </div>
- </section>
+ <div class="hero-arera course-item-height" data-background="/assets/img/slider/course-slider.jpg">
+   <div class="container">
+      <div class="row">
+         <div class="col-xl-12">
+            <div class="hero-course-1-text">
+               <h2>@yield('breadcrumb')</h2>
+            </div>
+            <div class="course-title-breadcrumb">
+               <nav>
+                  <ol class="breadcrumb">
+                     <li class="breadcrumb-item"><a href="/">Home</a></li>
+                     <li class="breadcrumb-item"><span>@yield('breadcrumb')</span></li>
+                  </ol>
+               </nav>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
  <!-- breadcrumb area end -->

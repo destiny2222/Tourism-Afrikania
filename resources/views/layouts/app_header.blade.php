@@ -4,16 +4,16 @@
             <a class="main-header-menu-icon" href="javascript:void(0);" id="mainSidebarToggle"><span></span></a>
             <div class="hor-logo">
                 <a class="main-logo" href="index.html">
-                    <img src="/assetss/img/brand/logo.png" class="header-brand-img desktop-logo" alt="logo">
-                    <img src="/assetss/img/brand/logo-light.png" class="header-brand-img desktop-logo-dark"
+                    <img src="" class="header-brand-img desktop-logo" alt="logo">
+                    <img src="" class="header-brand-img desktop-logo-dark"
                         alt="logo">
                 </a>
             </div>
         </div>
         <div class="main-header-center">
             <div class="responsive-logo">
-                <a href="index.html"><img src="/assetss/img/brand/logo.png" class="mobile-logo" alt="logo"></a>
-                <a href="index.html"><img src="/assetss/img/brand/logo-light.png" class="mobile-logo-dark"
+                <a href="index.html"><img src="" class="mobile-logo" alt="logo"></a>
+                <a href="index.html"><img src="" class="mobile-logo-dark"
                         alt="logo"></a>
             </div>
             <form action="#">
